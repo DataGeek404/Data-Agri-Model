@@ -1,0 +1,26 @@
+# Python requirements for agricultural AI model training
+tensorflow>=2.13.0
+tensorflow-datasets>=4.9.0
+pillow>=9.5.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+opencv-python>=4.8.0
+albumentations>=1.3.0
+tensorboard>=2.13.0
+keras-tuner>=1.3.0
+
+# For model conversion
+tensorflowjs>=4.8.0
+tf2onnx>=1.14.0
+
+# For data handling
+kaggle>=1.5.0
+requests>=2.31.0
+tqdm>=4.65.0
+
+# Optional: For advanced features
+roboflow>=1.1.0
+wandb>=0.15.0  # For experiment tracking

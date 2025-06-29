@@ -1,0 +1,23 @@
+{
+  "modelArchitecture": "EfficientNetB0",
+  "inputSize": [224, 224, 3],
+  "batchSize": 32,
+  "epochs": 50,
+  "learningRate": 0.001,
+  "augmentation": {
+    "rotation": 20,
+    "zoom": 0.2,
+    "horizontalFlip": true,
+    "brightness": 0.2
+  },
+  "splitRatio": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "targetMetrics": {
+    "cropAccuracy": 0.95,
+    "diseaseAccuracy": 0.90,
+    "yieldR2": 0.80
+  }
+}
