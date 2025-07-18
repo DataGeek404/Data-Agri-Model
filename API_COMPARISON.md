@@ -2,6 +2,7 @@
 
 ## 🏆 **Recommended Setup: Multi-API System**
 
+
 Our app now supports **three AI services** for maximum accuracy and reliability:
 
 ## 📊 **API Comparison Table**

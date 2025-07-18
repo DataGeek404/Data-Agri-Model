@@ -64,6 +64,7 @@ class AdvancedAgriculturalTrainer:
         self.crop_encoder.fit(all_crops)
         self.disease_encoder.fit(all_diseases)
         
+        
         # Apply encoding
         for df in [train_df, val_df, test_df]:
             df['crop_encoded'] = self.crop_encoder.transform(df['crop_type'])
@@ -74,6 +75,7 @@ class AdvancedAgriculturalTrainer:
         print(f"  Disease types: {len(self.disease_encoder.classes_)}")
         
         return train_df, val_df, test_df
+
     
     def create_advanced_augmentation(self):
         """Create advanced augmentation pipeline using Albumentations"""
